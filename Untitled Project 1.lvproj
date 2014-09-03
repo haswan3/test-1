@@ -17,28 +17,28 @@
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Analysis Configuration.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/Analysis Configuration.ctl"/>
+			<Item Name="Analysis Configuration.ctl" Type="VI" URL="../controls/Analysis Configuration.ctl"/>
 			<Item Name="Data.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/Data.ctl"/>
 			<Item Name="Graph Data.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/Graph Data.ctl"/>
 			<Item Name="HW Configuration.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/HW Configuration.ctl"/>
-			<Item Name="New Data Behavior.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/New Data Behavior.ctl"/>
-			<Item Name="Simulated Signal Type.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/Simulated Signal Type.ctl"/>
+			<Item Name="New Data Behavior.ctl" Type="VI" URL="../controls/New Data Behavior.ctl"/>
+			<Item Name="Simulated Signal Type.ctl" Type="VI" URL="../controls/Simulated Signal Type.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/State.ctl"/>
 			<Item Name="UI References.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/UI References.ctl"/>
-			<Item Name="User Specified Data.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/User Specified Data.ctl"/>
+			<Item Name="User Specified Data.ctl" Type="VI" URL="../controls/User Specified Data.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Utility VIs" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Analysis Configuration Dialog.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Analysis Configuration Dialog.vi"/>
-				<Item Name="Get Configuration File Path.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Get Configuration File Path.vi"/>
+				<Item Name="Get Configuration File Path.vi" Type="VI" URL="../subVIs/Get Configuration File Path.vi"/>
 				<Item Name="Get Scale Labels.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Get Scale Labels.vi"/>
 				<Item Name="Incorporate New Data.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Incorporate New Data.vi"/>
 				<Item Name="Load Configuration Settings from XML.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Load Configuration Settings from XML.vi"/>
 				<Item Name="Merge Graph Data Array.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Merge Graph Data Array.vi"/>
 				<Item Name="New Data Incorporation Method Dialog.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/New Data Incorporation Method Dialog.vi"/>
-				<Item Name="Save Configuration Settings to XML.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Save Configuration Settings to XML.vi"/>
+				<Item Name="Save Configuration Settings to XML.vi" Type="VI" URL="../subVIs/Save Configuration Settings to XML.vi"/>
 				<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Set Enable State on Multiple Controls.vi"/>
 			</Item>
 			<Item Name="Acquire Data from Hardware.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Acquire Data from Hardware.vi"/>
@@ -49,7 +49,7 @@
 			<Item Name="Settings Dialog.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Settings Dialog.vi"/>
 			<Item Name="Statistical Analysis.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Statistical Analysis.vi"/>
 		</Item>
-		<Item Name="Main.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/Main.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
@@ -87,6 +87,27 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
+			<Item Name="User Specified Data.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/User Specified Data.ctl"/>
+			<Item Name="Analysis Configuration.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/Analysis Configuration.ctl"/>
+			<Item Name="New Data Behavior.ctl" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/controls/New Data Behavior.ctl"/>
+			<Item Name="HW Configuration.ctl" Type="VI" URL="../controls/HW Configuration.ctl"/>
+			<Item Name="Get Configuration File Path.vi" Type="VI" URL="../../../Users/tester/Documents/LabVIEW Data/Untitled Project 1/subVIs/Get Configuration File Path.vi"/>
+			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
+			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
+			<Item Name="UI References.ctl" Type="VI" URL="../controls/UI References.ctl"/>
+			<Item Name="Graph Data.ctl" Type="VI" URL="../controls/Graph Data.ctl"/>
+			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../subVIs/Set Enable State on Multiple Controls.vi"/>
+			<Item Name="Load Configuration Settings from XML.vi" Type="VI" URL="../subVIs/Load Configuration Settings from XML.vi"/>
+			<Item Name="Analysis Configuration Dialog.vi" Type="VI" URL="../subVIs/Analysis Configuration Dialog.vi"/>
+			<Item Name="Get Scale Labels.vi" Type="VI" URL="../subVIs/Get Scale Labels.vi"/>
+			<Item Name="Settings Dialog.vi" Type="VI" URL="../subVIs/Settings Dialog.vi"/>
+			<Item Name="Acquire Data from Hardware.vi" Type="VI" URL="../subVIs/Acquire Data from Hardware.vi"/>
+			<Item Name="Incorporate New Data.vi" Type="VI" URL="../subVIs/Incorporate New Data.vi"/>
+			<Item Name="Load Data.vi" Type="VI" URL="../subVIs/Load Data.vi"/>
+			<Item Name="Save Data.vi" Type="VI" URL="../subVIs/Save Data.vi"/>
+			<Item Name="Export Data.vi" Type="VI" URL="../subVIs/Export Data.vi"/>
+			<Item Name="Statistical Analysis.vi" Type="VI" URL="../subVIs/Statistical Analysis.vi"/>
+			<Item Name="Copy Graph to Clipboard.vi" Type="VI" URL="../subVIs/Copy Graph to Clipboard.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Single Shot Application" Type="EXE">
